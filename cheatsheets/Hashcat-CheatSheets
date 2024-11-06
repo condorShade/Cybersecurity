@@ -1,17 +1,24 @@
 # Hashcat Cheat Sheet
 
-A quick guide for using Hashcat, covering hash modes, attack modes, common options, and examples.
+> A comprehensive guide for using Hashcat, covering hash modes, attack modes, common options, and more.
 
 ---
 
 ## 🔑 Hash Modes
+- `0`: MD5
+- `100`: SHA-1
+- `1400`: SHA-256
+- `1700`: SHA-512
+- `1000`: NTLM (Windows)
+- `3200`: bcrypt
+- `13100`: Kerberos 5 TGS-REP (etype 23)
+- `17600`: SHA3-512
 
-| Hash Type      | Mode |
-|----------------|------|
-| MD5            | 0    |
-| SHA-1          | 100  |
-| SHA-256        | 1400 |
-| SHA-512        | 1700 |
-| NTLM (Windows) | 1000 |
-| bcrypt         | 3200 |
+_For a complete list of hash modes, see the official [Hashcat documentation](https://hashcat.net/wiki/doku.php?id=example_hashes)._
 
+---
+
+## 🔍 Attack Modes
+- `-a 0`: Dictionary Attack – Uses a wordlist to attempt matches.
+  ```bash
+  hashcat -a 0 -m <hash_mode> <hash_file> <wordlist_file>
