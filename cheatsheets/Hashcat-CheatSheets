@@ -1,0 +1,17 @@
+# Hashcat Cheat Sheet
+
+A quick guide for using Hashcat, covering hash modes, attack modes, common options, and examples.
+
+---
+
+## 🔑 Hash Modes
+
+| Hash Type      | Mode |
+|----------------|------|
+| MD5            | 0    |
+| SHA-1          | 100  |
+| SHA-256        | 1400 |
+| SHA-512        | 1700 |
+| NTLM (Windows) | 1000 |
+| bcrypt         | 3200 |
+
