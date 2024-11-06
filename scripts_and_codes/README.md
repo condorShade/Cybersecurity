@@ -4,3 +4,4 @@ This folder contains a collection of useful scripts and code snippets created fo
 
 ## Contents
 
+- [Safe Password Generator](safe_password_generator.py)
