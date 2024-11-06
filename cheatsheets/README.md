@@ -4,5 +4,6 @@ This folder contains a collection of cheat sheets for various cybersecurity tool
 
 ## Contents
 - [Nmap Cheat Sheet](Nmap-CheatSheets.md)
+- [Hashcat Cheat Sheet](Hashcat-CheatSheets.md)
 
 Feel free to explore each cheat sheet to find helpful commands and options.
