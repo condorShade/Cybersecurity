@@ -4,3 +4,4 @@ A collection of cybersecurity resources, tools, and cheat sheets that I've gathe
 
 ## Contents
 - [CheatSheets](cheatsheets/README.md)
+- [CheatSheets](Scripts/README.md)
